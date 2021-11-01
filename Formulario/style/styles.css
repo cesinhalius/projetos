@@ -10,29 +10,76 @@ body{
 
 
 .header{
-   width: 20vw;
-   height: 20vh;
-   font-weight: bold;
-   margin-left: 40%;
-   margin-bottom: 30px;
-   background: cornsilk;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    border: 2px solid darkorchid;
+    border-radius: 5px;
+    
+    
 }
 
-.header .title{
-    text-align: center; 
+.header p{
+    justify-content: center;
+    text-align: center;
     margin-top: 50px;
-    
-    
-    
 }
 
 .main{
-    height: 50vh;
-    width: 400px;
-    margin-left: 40%;
+    height: 60vh;
+    width: 30rem;
+    margin-left: 30rem;
     background: #fff;
+    position: relative;
     border: 2px solid #000;
     border-radius: 8px;
 }
 
+.main form{
+    margin-bottom: 30rem;
+}
 
+.main form label{
+    color:crimson;
+    padding: 20px 20px;
+       
+
+}
+
+
+.main form input[type=text], input[type=email], input[type=password]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 20px 10px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/*.main form  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .main form input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }*/
+
+  .main form input[type=submit] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 20px 10px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
