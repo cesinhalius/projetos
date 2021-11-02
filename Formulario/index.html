@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="header">
-        <p>Cadastro Online</p>
+        <p>Cadastro</p>
     </div>
     <br><br>
     <div class="main">
@@ -17,14 +17,14 @@
             <label for="name">Nome:</label>
             <input type="text" placeholder="Nome" required="required" name="Name">
             <label for="email">Email:</label>
-            <input type="email" name="Email" for="email" placeholder="000000@0000.com">
+            <input type="email" name="Email" required="required" placeholder="000000@0000.com">
             <label for="senha">Senha:</label>
-            <input type="password" name="Senha" id="senha" placeholder="Insira uma chave">
+            <input type="password" name="Senha" required="required" placeholder="Insira uma chave">
     
     
-            <input type="submit" value="Enviar" class="enviar" onclick="Enviar()">
+            <input type="submit" id="enviar" onclick="Enviar()">
         </form>
     </div>
-   
+   <script src="js/enviar.js"></script>
 </body>
 </html>
