@@ -1,9 +1,11 @@
+
+
 function Enviar(){
-    let nome = document.getElementsByName("Name");
-    let email = document.getElementsByName("Email");
-    let senha = document.getElementsByName("Senha");
-    
-    if(nome.values !== "" && email.values !== "" && senha.values !== ""){
-        console.log('oi');
+    let email = document.getElementById('email').value;
+   let nome = document.getElementById('name').value;
+    if(nome !== "" ){
+        alert('obrigado por cadeastrar SR.' + nome + email);
+    }else{
+        console.log('oi')
     }
 }
