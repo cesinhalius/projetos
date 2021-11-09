@@ -1,3 +1,12 @@
+:root{
+    --background_sidebar:#ccc;
+    --image_svg:#6e8efb;
+    --color_font:#72777a;
+    --color_font_hover:#303030;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
