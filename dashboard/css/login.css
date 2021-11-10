@@ -38,7 +38,7 @@
 
 .login-form-wrapper button{
     width: 100%; 
-    background: linear-gradient(to right, #eaafc8, #654ea3);
+    background: var(--background-button);
     border: none; 
     color: #fff;
 }

@@ -37,3 +37,29 @@ main .main-content{
     border: 1px solid #ccc;
     margin: 10px 0;
 }
+
+
+.panel-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.panel-50{
+  width: 45%;
+}
+
+.panel-row button{
+   height: 100%;
+   background: var(--background-button);
+   font-size: 22px;
+   color: #fff;
+}
+
+.panel-row button:hover{
+  transform: scale(1.05);
+  transition: .2s;
+}

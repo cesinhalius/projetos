@@ -29,7 +29,7 @@
                       <input type="password" class="form-control" id="senha" placeholder="Senha">
                     </div>
                    
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="button" class="btn">Login</button>
                   </form>
              </div>
          </div>
@@ -40,5 +40,11 @@
     </div>
     <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="../plugins/fontawesome/js/all.min.js"></script>
+    <script>
+      let button = document.querySelector('form button.btn')
+      button.addEventListener('click', () => {
+        location.href = "pages/dashboard.html";
+      })
+    </script>
 </body>
 </html> 
