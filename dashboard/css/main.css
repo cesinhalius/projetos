@@ -63,3 +63,11 @@ main .main-content{
   transform: scale(1.05);
   transition: .2s;
 }
+
+
+.content#ajax-content{
+  width: 100%;
+  border: 1px solid red;
+  height: 200px;
+  margin-top: 20px;
+}
