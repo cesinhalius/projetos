@@ -67,7 +67,33 @@ main .main-content{
 
 .content#ajax-content{
   width: 100%;
-  border: 1px solid red;
-  height: 200px;
+  border: 1px solid rgba(0, 0, 0, .2);
   margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+  
 }
+
+.content#ajax-content button{
+  background: var(--background-button);
+  border: none;
+  color: #fff;
+}
+
+.content#ajax-content button:hover{
+  color: #ccc;
+  transform: scale(1.12);
+  transition: .1s;
+}
+.content#ajax-content label{
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--color_font);
+
+}
+
+.content#ajax-content table svg{
+  cursor: pointer;
+}
+
