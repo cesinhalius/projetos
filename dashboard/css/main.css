@@ -55,8 +55,14 @@ main .main-content{
 .panel-row button{
    height: 100%;
    background: var(--background-button);
-   font-size: 22px;
+   font-size: 20px;
    color: #fff;
+}
+
+.panel-row button svg{
+  margin-bottom: 10px;
+  font-size: 30px;
+  
 }
 
 .panel-row button:hover{
