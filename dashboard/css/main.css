@@ -145,3 +145,48 @@ main .main-content{
   color: var(--black-color);
   font-weight: 600;
 }
+
+.dashboard-content{
+  margin-top: 20px;
+}
+
+.dashboarder-flex-parent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dashboaerder-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 23%;
+  height: 200px;
+  background: var(--background_sidebar);
+}
+
+.box-icon{
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-icon svg{
+  font-size: 20px;
+}
+
+.value{
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.type{
+  font-size: 19px;
+}
