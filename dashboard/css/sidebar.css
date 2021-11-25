@@ -21,7 +21,6 @@ sidebar .sidebar-title{
     align-items: center;
     padding: 10px 30px;
     height: 90px;
-    border: 3px solid rgba(0,0,0,.0625);
     border-right:0px;
 }
 
@@ -35,8 +34,7 @@ sidebar .sidebar-title h2{
     margin-top: 8px;
 }
 
-div.menu{
-    border-right: 3px solid rgba(0,0,0,.0625);
+div.menu{ 
     padding: 0 25px;
 } 
 
