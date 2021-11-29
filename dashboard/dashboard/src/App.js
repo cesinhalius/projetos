@@ -1,11 +1,13 @@
-import './App.css';
+
+import {Main,Title}  from "./styles/style";
 
 
 function App() {
   return (
-    <div className="App">
-      <h2>Hello</h2>
+    <div className={Main}>
+     oi
     </div>
+   
   );
 }
 
