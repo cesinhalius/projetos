@@ -8,31 +8,67 @@ body {
   width: 100%;
   height: 99vh;
   background:url(../image/blackground_walpaper.svg)no-repeat;
+  overflow-y: hidden;
   
 }
 
-nav.navbar{
-  border: 1px solid red;
+nav#navbar{
   margin: 20px 10px;
-}
-
-nav .logo{
   display: flex;
-  border: 1px solid red;
+  align-items: center;
+}
+.logo{
+  display: flex;
   width: 10rem;
   height: 120px;
-  margin:20px 10px;
+  margin:30px 20px;
+  padding-right:20px;
+  justify-content: center;
   
 }
 nav .logo img{
-  margin-left:40px; 
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center; 
 }
-ul.nav-list{
-  border: 1px solid red;
-  margin: 20px;
-  text-decoration: none ; 
+ul{
+  
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+  height: 90px;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
 }
- ul li a{
-   text-decoration: none;
- }
 
+ul li a.nav-link{
+  margin: 15px;
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+ 
+.social{
+  display: flex;
+  width: 15rem;
+  height: 100%;
+  margin-left: 500px;
+  justify-content: space-between;
+
+  
+}
+
+.social img{
+  display: flex;
+  margin: 20px;
+}
+
+/* Style Header */
+
+section.container{
+  border: 1px solid red;
+  height: 73vh;
+}
