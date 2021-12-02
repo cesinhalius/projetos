@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -13,9 +14,9 @@ body {
 }
 
 nav#navbar{
-  margin: 20px 10px;
   display: flex;
   align-items: center;
+  height: 20vh;
 }
 .logo{
   display: flex;
@@ -72,3 +73,63 @@ section.container{
   border: 1px solid red;
   height: 73vh;
 }
+
+.container-item-1{
+  height: 58vh;
+  margin: 90px;
+}
+
+.container-item-1 img{
+  border: 1px solid red;
+  margin: 20px;
+  padding-left:20px;
+  width: 40vw;
+}
+
+.container-item-1 p{
+  border: 1px solid red;
+  width: 50rem;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background: transparent;
+  color: #ccc;
+  text-align: center;
+  justify-content: center;
+  
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container-item-1 .button-buy{
+  display: flex;
+  border: 1px solid red;
+  margin: 20px;
+  width: 11rem;
+  position: relative;
+  background: royalblue;
+}
+
+.container-item-1 .button-buy a{
+  margin: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container-item-1 .button-video{
+  display: flex;
+  border: 1px solid blue;
+  margin: 20px;
+  width: 11rem;
+  background: royalblue;
+}
+
+.container-item-1 .button-video a{
+  margin: 20px;
+  text-decoration: none;
+  
+}
+
