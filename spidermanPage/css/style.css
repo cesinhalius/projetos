@@ -8,31 +8,26 @@
 body {
   width: 100%;
   height: 99vh;
-  background:url(../image/blackground_walpaper.svg)no-repeat;
-  overflow-y: hidden;
+  background: url(../image/blackground_walpaper.svg) no-repeat;
+  
   
 }
 
 nav#navbar{
   display: flex;
   align-items: center;
-  height: 20vh;
+  height: 20%;
 }
 .logo{
   display: flex;
   width: 10rem;
-  height: 120px;
+  height: 100px;
   margin:30px 20px;
   padding-right:20px;
   justify-content: center;
   
 }
-nav .logo img{
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  justify-content: center; 
-}
+
 ul{
   
   display: flex;
@@ -49,6 +44,11 @@ ul li a.nav-link{
   color: #fff;
   text-decoration: none;
   
+}
+
+ul li a.nav-link:hover{
+  color: red;
+  transition: 2s;
 }
 
  
@@ -70,28 +70,24 @@ ul li a.nav-link{
 /* Style Header */
 
 section.container{
-  border: 1px solid red;
-  height: 73vh;
+  
+  height: 70vh;
 }
 
 .container-item-1{
   height: 58vh;
-  margin: 90px;
+  margin: 30px 60px;
 }
 
 .container-item-1 img{
-  border: 1px solid red;
-  margin: 20px;
-  padding-left:20px;
   width: 40vw;
 }
 
 .container-item-1 p{
-  border: 1px solid red;
-  width: 50rem;
-  margin-bottom: 40px;
+  width: 45rem;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-bottom: 40px;
+  margin-left: 10px;
   background: transparent;
   color: #ccc;
   text-align: center;
@@ -106,11 +102,13 @@ section.container{
 
 .container-item-1 .button-buy{
   display: flex;
-  border: 1px solid red;
+  border: 1px solid black;
+  border-radius: 8px;
   margin: 20px;
   width: 11rem;
-  position: relative;
-  background: royalblue;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
 }
 
 .container-item-1 .button-buy a{
@@ -119,17 +117,36 @@ section.container{
   color: #fff;
 }
 
+.container-item-1 .button-buy:hover{
+  transform: scale(1.20);
+  border: none;
+  background: red;
+  transition: 2s;
+  
+}
+
 .container-item-1 .button-video{
   display: flex;
   border: 1px solid blue;
-  margin: 20px;
+  border-radius: 8px ;
+  margin: 25px;
   width: 11rem;
-  background: royalblue;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-item-1 .button-video a{
   margin: 20px;
   text-decoration: none;
-  
+  color: #ccc;
+  text-transform: uppercase; 
+}
+
+.container-item-1 .button-video:hover{
+  background: royalblue;
+  border: none;
+  transform: scale(1.20);
+  transition: 2s;
 }
 
