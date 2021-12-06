@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <title>Spider-Man: Miles Morales  |  PS5</title>
-  <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Spider-Man: Miles Morales  |  PS5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/svg-inject.min.js"></script>
 </head>
 <body>
   <!--====== HEADER ===========-->
-    <nav id="navbar">
+  <nav id="navbar">
         <div class="logo">
-          <img src="image/Logo.svg"/>
+          <img src="image/Logo.svg" onload="SVGInject(this)"/>
         </div>
           <ul>
             <li><a href="" class="nav-link">HOME</a></li>
@@ -21,14 +22,14 @@
             <li><a href="" class="nav-link">#BEYOURSELF</a></li>
           </ul>
       <div class="social">
-        <img src="image/rede.svg"/>
+        <img src="image/rede.svg" onload="SVGInject(this)"/>
       </div>
     </nav>
   
   <!--====== CONTEINER ===========-->
    <section class="container">
      <div class="container-item-1">
-        <img src="image/spiderman-text.png" />
+        <img src="image/spiderman-text.png" onload="SVGInject(this)"/>
        
         
           <p>
@@ -56,10 +57,5 @@
      </div>
    </section>
 
-
-
-
-
-  
 </body>
 </html>
