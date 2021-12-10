@@ -1,9 +1,11 @@
 var toggle_btn;
 var big_wrapper;
+var hambuger_menu;
 
 function declare() {
   big_wrapper = document.querySelector(".big-wrapper");
   toggle_btn = document.querySelector(".toggle-btn");
+  hambuger_menu = document.querySelector(".hamburger-menu");
 }
 
 const main = document.querySelector("main");
@@ -36,6 +38,9 @@ function toggleAnimation() {
 
 function events() {
   toggle_btn.addEventListener("click", toggleAnimation);
+  hambuger_menu.addEventListener("click", () => {
+    big_wrapper.classList.toggle("active");
+  });
 }
 
 events();
