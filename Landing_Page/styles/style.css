@@ -357,7 +357,22 @@ header .container{
     }
     .showcase-area{
         padding: 2.5rem 0;
+        max-width: 700px;
+        margin: auto 0;
     }
+
+  .big-title {
+    font-size: 1.1rem;
+  }
+  .showcase-area .container{
+      grid-template-columns: 1fr;
+      justify-content: center;
+      grid-gap: 2rem;
+  }
+  .shape {
+    bottom: -180px;
+    left: -150px;
+  }
 }
 
 @media screen and (max-width: 470px) {
