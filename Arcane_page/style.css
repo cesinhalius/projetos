@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -14,6 +15,7 @@ body{
     width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .container .logos{
     border: 1px solid red;
@@ -28,8 +30,52 @@ body{
     cursor: pointer;
 }
 
-.logo{
+.login{
     border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15rem;
+    height: 10vh;
+    margin-right: 20px;
+}
+
+.login a.icon{
+    width: 32px;
+    height: 32px;
     margin: 20px;
+    display: flex;
+    color: azure;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6.4px;  
+}
+
+
+
+.login a.icon:hover{
+    border: 1px solid rgba(51, 51, 51, .35);
+    background: rgb(51, 51, 51);
+}
+
+.login .btn-login{
+    
+    margin: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(51, 51, 51);  
+    border-radius: 6.4px;
+}
+
+.login .btn-login a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    color: azure;
+    font-size: 13px;
 }
 
