@@ -61,7 +61,6 @@ body{
 }
 
 .login .btn-login{
-    
     margin: 20px;
     height: 40px;
     display: flex;
@@ -79,3 +78,50 @@ body{
     font-size: 13px;
 }
 
+
+main{
+    width: 85rem;
+    height: 400px;
+    margin-top: 10px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .background{
+    border: 1px solid blue;
+    width: 100vw;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main .panel{
+    display: none;
+    border: 1px solid blue;
+    width: 80rem;
+    margin: 20px;
+}
+
+main .panel img{
+    border: 1px solid blue;
+    width: 30rem;
+    height: auto;
+    display: none;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 27vw;
+    
+
+}
