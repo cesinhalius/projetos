@@ -6,7 +6,7 @@
 }
 
 body{
-    background: black;
+    background: #000;
 }
 
 .container{
@@ -84,27 +84,19 @@ main{
     height: 400px;
     margin-top: 10px;
     border: 1px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    
+    
     
 }
 
-main .background{
+main img.back{
     border: 1px solid blue;
-    width: 100vw;
-    margin: 20px;
+    height: 60vh;
+    width: 89vw;
+    margin-left: 40px;
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 main .panel{
@@ -114,14 +106,9 @@ main .panel{
     margin: 20px;
 }
 
-main .panel img{
+main .panel img.title{
     border: 1px solid blue;
-    width: 30rem;
-    height: auto;
-    display: none;
-    padding: 20px;
-    margin: 20px;
-    margin-left: 27vw;
+    margin-left: 50px;
     
 
 }
