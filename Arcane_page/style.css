@@ -80,35 +80,20 @@ body{
 
 
 main{
+    background: rgba(0, 0, 0, .5);
+    border: 1px solid blue;   
     width: 85rem;
     height: 400px;
     margin-top: 10px;
-    border: 1px solid blue;
-    
-    
-    
-    
 }
 
-main img.back{
-    border: 1px solid blue;
-    height: 60vh;
-    width: 89vw;
-    margin-left: 40px;
-
-}
-
-
-main .panel{
-    display: none;
-    border: 1px solid blue;
-    width: 80rem;
-    margin: 20px;
-}
-
-main .panel img.title{
-    border: 1px solid blue;
-    margin-left: 50px;
-    
+main > section{
+    align-items: center;
+    background: #000;
+    border: 1px solid blue;   
+    display: flex;
+    flex-direction: row;
+    margin: 40px 30px;
+    justify-content: center;
 
 }
