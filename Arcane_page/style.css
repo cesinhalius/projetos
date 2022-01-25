@@ -10,25 +10,37 @@ body{
 }
 
 .container{
+    align-items: center;
+    background: rgba(0, 0, 0, .5);
     border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
     height: 15vh;
     width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 .container .logos{
+    align-items: center;
     border: 1px solid red;
     margin: 10px;
-    align-items: center;
     
 }
 .container .logos img{
-    width: 5rem;
-    height: 10vh;
-    margin: 10px;
     cursor: pointer;
+    margin: 10px;
+    height: 10vh;
+    width: 5rem;
 }
+
+nav{
+    border: 1px solid red;
+    width: 70vw;
+}
+
+nav > ul li{
+    list-style-type: none;
+    color: aliceblue;    
+} 
+
 
 .login{
     border: 1px solid red;
@@ -93,7 +105,7 @@ main > section{
     border: 1px solid blue;   
     display: flex;
     flex-direction: row;
-    margin: 40px 30px;
     justify-content: center;
+    margin: 50px 40px;
 
 }
