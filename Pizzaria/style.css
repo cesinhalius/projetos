@@ -14,14 +14,21 @@ body{
     height: 15vh;
     margin-top: 10px;
     display: flex;
+    justify-content: space-between;
     
 }
 
 .container .logo{
     border: 1px solid blue;
-    width: 10vw;
+    width: 5rem;
     height: 10vh;
-    margin-left: 20px;
-    margin-top: 5px;
+    margin-left: 1rem;
+    margin-top: 1rem;
     
+}
+
+.logo img{
+    width: 5rem;
+    height: 10vh;
+    border: 1px solid blue;
 }
