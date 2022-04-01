@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     list-style: none;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
 }
 
@@ -12,21 +12,20 @@ body {
 
 .container {
   border: 1px solid red;
-  width: 83rem;
+  display: flex;
   height: 15vh;
-  margin-top: 10px;
+  justify-content: flex-start;
   margin-left: 10px;
   margin-right: 10px;
-  display: flex;
-  justify-content: flex-start;
+  margin-top: 10px;
+  width: 83rem;
 }
 
 .container .logo {
-  border: 1px solid blue;
-  width: 5rem;
-  height: 10vh;
-  margin-left: 1rem;
-  margin-top: 1rem;
+    height: 10vh;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 5rem;
 }
 
 .logo img {
@@ -37,12 +36,11 @@ body {
 }
 
 .container .menu {
-  border: 1px solid black;
-  margin-left: 5rem;
-  width: 50rem;
-  margin-top: 1.3rem;
-  height: 49px;
-  display: flex;
+    display: flex;
+    height: 49px;
+    margin-left: 5rem;
+    margin-top: 1.3rem;
+    width: 50rem;
 }
 
 .container .menu ul {
@@ -53,11 +51,15 @@ body {
   float: left;
 }
 .container .menu ul li a {
-  display: flex;
-  justify-content: center;
-  padding: 14px 16px;
-  color: aliceblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 14px 16px;
+    
 }
-.container .menu ul li a:hover {
-  background: violet;
+.container .menu ul li a:hover { 
+    border: 1px solid gray;
+    border-radius: 5px;
+    
 }
+
