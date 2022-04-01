@@ -50,16 +50,28 @@ body {
 .container .menu ul li {
   float: left;
 }
+.container .menu ul li.cadastro{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px 5px 10px 20px;
+    margin-left: 500px;
+}
+
+.container .menu ul li.cadastro:hover{
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    transition: 2s;
+}
+
+
+
+
 .container .menu ul li a {
     color: aliceblue;
     display: flex;
     justify-content: center;
     padding: 14px 16px;
+    cursor: pointer;
     
 }
-.container .menu ul li a:hover { 
-    border: 1px solid gray;
-    border-radius: 5px;
-    
-}
+
 
