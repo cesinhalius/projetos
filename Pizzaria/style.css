@@ -50,16 +50,18 @@ body {
 .container .menu ul li {
   float: left;
 }
-.container .menu ul li.cadastro{
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 4px 5px 10px 20px;
-    margin-left: 500px;
-}
 
-.container .menu ul li.cadastro:hover{
-    background: rgba(0, 0, 0, 0.6);
-    border: none;
-    transition: 2s;
+
+.container .menu button.cadastro{
+  border: 1px solid red;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container .menu button{
+  width: 500px;  
 }
 
 
