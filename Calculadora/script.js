@@ -1,13 +1,25 @@
-function insert(num){
-    let numero = document.getElementById('result');
-    document.getElementById('result').innerHTML = numero + num;
+function insert(num)
+{
+var numero = document.getElementById('resultado').innerHTML;
+document.getElementById('resultado').innerHTML = numero + num;
 }
-
-function calcular(){
-    let resultado = document.getElementById('result').innerHTML;
-    if(resultado){
-        document.getElementById('result').innerHTML = eval(resultado);
-    }else{
-        document.getElementById('result').innerHTML = "Tente Novamente";
-    }
+function clean ()
+{
+document.getElementById('resultado').innerHTML = "";
+}
+function back()
+{
+var resultado= document.getElementById('resultado').innerHTML;
+document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
+}
+function calcular()
+{
+var resultado = document.getElementById('resultado').innerHTML;
+if (resultado)
+{
+document.getElementById('resultado').innerHTML = eval(resultado);
+}
+else{
+    document.getElementById('resultado').innerHTML = "Tente Novamente"
+}
 }
