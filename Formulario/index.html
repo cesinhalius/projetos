@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <div class="header">
+        <p>Cadastro</p>
+    </div>
+    <br><br>
+    <div class="main">
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" placeholder="Nome" name="Name" id="name">
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email">
+            <label for="senha">Senha:</label>
+            <input type="password" name="Senha" id="pass" placeholder="Insira uma chave">
+    
+    
+            <input type="submit" id="enviar" onclick="Enviar()">
+        </form>
+    </div>
+   <script src="js/enviar.js"></script>
+</body>
+</html>
